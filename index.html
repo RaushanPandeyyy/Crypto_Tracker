@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Tracker</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+
+        <h2>🚀 CryptoTracker</h2>
+
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Coins</a>
+            <a href="#">About</a>
+        </div>
+
+        <button id="refreshBtn">
+            Refresh Prices
+        </button>
+
+    </nav>
+
+    <section class="hero">
+
+        <h1>
+            Live Cryptocurrency
+            <span>Prices</span>
+        </h1>
+
+        <p>
+            Track top cryptocurrencies in real-time and stay updated with latest market changes.
+        </p>
+
+    </section>
+
+    <section class="coins-section">
+
+        <div class="section-header">
+
+            <h2>Top 10 Cryptocurrencies</h2>
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search Coin..."
+            >
+
+        </div>
+
+        <div id="cryptoContainer">
+
+        </div>
+
+        <p id="lastUpdated"></p>
+
+    </section>
+
+    <footer>
+        Powered by CoinGecko API
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
