@@ -50,3 +50,4 @@ CoinGecko Public API
 👨‍💻 Author
 
 Raushan Pandey
+Project deployed using GitHub Pages.
